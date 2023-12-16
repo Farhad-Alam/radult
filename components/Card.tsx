@@ -6,8 +6,8 @@ import { Movie } from "../types";
 
 interface Props {
   movie: Movie;
-} 
- 
+}
+
 const Card = ({ movie }: Props) => {
   return (
     <Link href={`/post/${movie?.slug?.current}`} className="relative space-y-2">
@@ -15,7 +15,7 @@ const Card = ({ movie }: Props) => {
       <div className="relative w-full h-[16rem] lg:h-[18rem] group border border-gray-500 rounded-lg">
         <Image
           src={urlFor(movie?.mainImage)?.url()}
-          alt={`${movie?.title} | RTALLY`}
+          alt={`${movie?.title} | Radult`}
           className="object-cover rounded-lg p-[3px]"
           fill
         />
@@ -26,7 +26,7 @@ const Card = ({ movie }: Props) => {
         </div>
       </div>
       <h3 className="line-clamp-1">{movie?.title}</h3>
-      {/* <div className="flex justify-between items-center capitalize">
+      <div className="flex justify-between items-center capitalize">
         <div className="space-x-4 text-sm text-gray-400 tracking-wide">
           <span className="text-xs">
             {movie?.year.map((item) => item.title)}
@@ -36,15 +36,15 @@ const Card = ({ movie }: Props) => {
         <span className="border border-gray-500 text-gray-300 text-xs px-1 lg:px-2 py-1 rounded-md">
           {movie?.type.map((item: any) => item.title)}
         </span>
-      </div> */}
+      </div>
       {/* rating */}
-      {/* <span className="absolute top-0 right-2 bg-red-500 text-gray-700 font-bold p-1 rounded-sm text-xs">
+      <span className="absolute top-0 right-2 bg-red-500 text-gray-700 font-bold p-1 rounded-sm text-xs">
         {movie?.rating}
-      </span> */}
+      </span>
       {/* language */}
-      {/* <span className="absolute bottom-[4.5rem] left-2 bg-red-500 text-gray-700 font-bold p-1 rounded-sm text-xs">
+      <span className="absolute bottom-[4.5rem] left-2 bg-red-500 text-gray-700 font-bold p-1 rounded-sm text-xs">
         {movie?.language.map((item: any) => item.title)}
-      </span> */}
+      </span>
     </Link>
   );
 };

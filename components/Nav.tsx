@@ -76,7 +76,7 @@ const Nav = ({ moviePage }: any) => {
         <div className="text-center mt-8">
           <Link href="/">
             <span className="text-2xl md:text-[1.7rem] bg-red-500 px-2 py-1 rounded-sm uppercase font-semibold shadow-lg">
-              RTally
+              Radult
             </span>
           </Link>
         </div>
@@ -110,7 +110,7 @@ const Nav = ({ moviePage }: any) => {
           </ul> */}
           {/* Copyright */}
           <div className="absolute bottom-0 left-0 right-0 flex items-center justify-between text-xs p-4 text-gray-400">
-            <p>©Copyright by RTALLY</p>
+            <p>©Copyright by Radult</p>
             <p>Creator Code : FarhanJum</p>
           </div>
         </div>

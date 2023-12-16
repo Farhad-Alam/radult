@@ -14,7 +14,7 @@ export const generateMetadata = async ({ params: { titleId } }: Props) => {
   return {
     title: titleId,
     description:
-      "Discover the world of entertainment with Rtally – download movies, web series, and dramas from all over the world. Watch online or download and enjoy anytime. Visit Rtally now!",
+      "Discover the world of entertainment with Radult – download movies, web series, and dramas from all over the world. Watch online or download and enjoy anytime. Visit Radult now!",
   };
 };
 

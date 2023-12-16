@@ -27,7 +27,7 @@ const Details = ({ singleMovieData }: Props) => {
           src={urlFor(singleMovieData.mainImage).url()}
           className="object-cover p-[5px] anim"
           fill
-          alt={`${singleMovieData?.title} | RTALLY`}
+          alt={`${singleMovieData?.title} | Radult`}
         />
       </div>
       {/* Right */}

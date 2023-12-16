@@ -33,7 +33,7 @@ const Social = () => {
               src={"/filemoon.jpg"}
               width={20}
               height={20}
-              alt="filemoon_rtally"
+              alt="filemoon_radult"
             />
             <p>FileMoon</p>
           </div>
@@ -47,7 +47,7 @@ const Social = () => {
               src={"/filelion.png"}
               width={20}
               height={20}
-              alt="filelion_rtally"
+              alt="filelion_radult"
             />
             <p>FileLion</p>
           </div>
@@ -57,7 +57,7 @@ const Social = () => {
       <div className="space-y-4">
         {/* News Ticker */}
         {/* <h1 className="bg-red-500 uppercase text-lg w-fit mx-auto px-2">
-          Rtally_News
+          Radult_News
         </h1> */}
         <div className="vwrap text-gray-400 w-fit mx-auto font-semibold grid place-items-center ">
           <div className="vmove">

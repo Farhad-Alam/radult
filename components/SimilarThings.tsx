@@ -18,7 +18,7 @@ const SimilarThings = ({ similarData }: any) => {
                 <Image
                   src={urlFor(item.mainImage).url()}
                   className="rounded-full object-cover p-2 anim"
-                  alt={`${item?.title} | RTALLY`}
+                  alt={`${item?.title} | Radult`}
                   fill
                 />
               </div>

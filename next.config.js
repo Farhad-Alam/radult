@@ -5,6 +5,6 @@ module.exports = {
     appDir: true,
   },
   images: {
-    domains: ["rtally.vercel.app","cdn.sanity.io"],
+    domains: ["radult.vercel.app","cdn.sanity.io"],
   },
 };

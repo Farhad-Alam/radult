@@ -52,17 +52,17 @@ export const navLinks = [
       {
         name: "Bollywood",
         link: "/",
-        desc: "Experience the magic of Bollywood on Rtally! Download a wide range of captivating Bollywood movies. Immerse yourself in the vibrant storytelling, catchy music, and iconic performances. Explore our Bollywood Movies category now for an unforgettable cinematic journey. Get ready for the ultimate Bollywood entertainment on Rtally!",
+        desc: "Experience the magic of Bollywood on Radult! Download a wide range of captivating Bollywood movies. Immerse yourself in the vibrant storytelling, catchy music, and iconic performances. Explore our Bollywood Movies category now for an unforgettable cinematic journey. Get ready for the ultimate Bollywood entertainment on Radult!",
       },
       {
         name: "Chinese",
         link: "/",
-        desc: "Embark on an extraordinary cinematic journey with Chinese movies on Rtally! Download captivating films from China's vibrant film industry. Explore our Chinese Movies category and immerse yourself in the beauty of Chinese storytelling. Experience the richness of Chinese cinema on Rtally.",
+        desc: "Embark on an extraordinary cinematic journey with Chinese movies on Radult! Download captivating films from China's vibrant film industry. Explore our Chinese Movies category and immerse yourself in the beauty of Chinese storytelling. Experience the richness of Chinese cinema on Radult.",
       },
       {
         name: "Hollywood",
         link: "/",
-        desc: "Embark on a Hollywood movie extravaganza with Rtally! Download blockbuster hits and timeless classics. Explore our Hollywood Movies category for an unforgettable cinematic experience. Get ready for non-stop entertainment with Rtally's collection of Hollywood films. Lights, camera, action! ",
+        desc: "Embark on a Hollywood movie extravaganza with Radult! Download blockbuster hits and timeless classics. Explore our Hollywood Movies category for an unforgettable cinematic experience. Get ready for non-stop entertainment with Radult's collection of Hollywood films. Lights, camera, action! ",
       },
       {
         name: "Indonesian",
@@ -102,7 +102,7 @@ export const navLinks = [
       {
         name: "Thai",
         link: "/",
-        desc: "Embark on a cinematic journey with Thai movies on Rtally! Download captivating Thai films and immerse yourself in their unique storytelling. Explore our Thai Movies category for an authentic taste of Thai cinema. Experience the beauty and excitement of Thai films on Rtally.",
+        desc: "Embark on a cinematic journey with Thai movies on Radult! Download captivating Thai films and immerse yourself in their unique storytelling. Explore our Thai Movies category for an authentic taste of Thai cinema. Experience the beauty and excitement of Thai films on Radult.",
       },
     ],
   },
@@ -113,7 +113,7 @@ export const navLinks = [
       {
         name: "Bengali",
         link: "/",
-        desc: "Experience captivating Bengali dramas on Rtally! Download a diverse collection of gripping films. Immerse yourself in the rich storytelling and cultural nuances. Explore our Bengali Dramas now for an unforgettable cinematic journey!",
+        desc: "Experience captivating Bengali dramas on Radult! Download a diverse collection of gripping films. Immerse yourself in the rich storytelling and cultural nuances. Explore our Bengali Dramas now for an unforgettable cinematic journey!",
       },
       {
         name: "Chinese",
@@ -123,12 +123,12 @@ export const navLinks = [
       {
         name: "English",
         link: "/",
-        desc: "Embark on captivating journeys with English dramas on Rtally! Download compelling stories and immerse yourself in the world of captivating performances. Explore our English Dramas category for an unforgettable cinematic experience. Let the power of storytelling captivate you on Rtally.",
+        desc: "Embark on captivating journeys with English dramas on Radult! Download compelling stories and immerse yourself in the world of captivating performances. Explore our English Dramas category for an unforgettable cinematic experience. Let the power of storytelling captivate you on Radult.",
       },
       {
         name: "India",
         link: "/",
-        desc: "Experience the best of Indian dramas on Rtally! Download captivating India dramas and immerse yourself in the rich storytelling. Explore our India Dramas category for an unforgettable cinematic journey. Discover the magic of Indian cinema on Rtally.",
+        desc: "Experience the best of Indian dramas on Radult! Download captivating India dramas and immerse yourself in the rich storytelling. Explore our India Dramas category for an unforgettable cinematic journey. Discover the magic of Indian cinema on Radult.",
       },
       {
         name: "Japanese",
@@ -138,7 +138,7 @@ export const navLinks = [
       {
         name: "Korean",
         link: "/",
-        desc: "Embark on an extraordinary journey with Korean Dramas on Rtally! Download captivating tales filled with love, intrigue, and unforgettable moments. Explore our Korean Dramas category for an immersive and addictive viewing experience. Let the magic of Korean storytelling captivate your heart on Rtally.",
+        desc: "Embark on an extraordinary journey with Korean Dramas on Radult! Download captivating tales filled with love, intrigue, and unforgettable moments. Explore our Korean Dramas category for an immersive and addictive viewing experience. Let the magic of Korean storytelling captivate your heart on Radult.",
       },
     ],
   },
@@ -150,7 +150,7 @@ export const navLinks = [
       {
         name: "Action",
         link: "/",
-        desc: "Unleash your adrenaline with Rtally! Download high-octane action movies and experience thrilling adventures. Explore our Action Movies category for pulse-pounding excitement. Get ready for non-stop action and epic battles on Rtally. Get your dose of excitement today!",
+        desc: "Unleash your adrenaline with Radult! Download high-octane action movies and experience thrilling adventures. Explore our Action Movies category for pulse-pounding excitement. Get ready for non-stop action and epic battles on Radult. Get your dose of excitement today!",
       },
       {
         name: "Adventure",
@@ -160,7 +160,7 @@ export const navLinks = [
       {
         name: "Animation",
         link: "/",
-        desc: "Unleash your imagination with Rtally's Animation Movies! Download captivating animated films and embark on extraordinary adventures. Explore our Animation Movies category and experience the magic of animated storytelling. Delight in the world of animated wonders on Rtally.",
+        desc: "Unleash your imagination with Radult's Animation Movies! Download captivating animated films and embark on extraordinary adventures. Explore our Animation Movies category and experience the magic of animated storytelling. Delight in the world of animated wonders on Radult.",
       },
       {
         name: "Biography",
@@ -170,12 +170,12 @@ export const navLinks = [
       {
         name: "Comedy",
         link: "/",
-        desc: "Get ready to laugh out loud with Rtally's Comedy Movies category! Download hilarious comedies and enjoy a dose of humor. Explore a wide range of rib-tickling films that will keep you entertained. Embrace the joy of laughter with Rtally. Start downloading your favorite comedy movies now!",
+        desc: "Get ready to laugh out loud with Radult's Comedy Movies category! Download hilarious comedies and enjoy a dose of humor. Explore a wide range of rib-tickling films that will keep you entertained. Embrace the joy of laughter with Radult. Start downloading your favorite comedy movies now!",
       },
       {
         name: "Crime",
         link: "/",
-        desc: "Unleash your inner detective with Rtally! Download gripping crime movies and immerse yourself in the world of mystery and suspense. Explore our Crime Movies category for a thrilling cinematic experience. Dive into the dark side of cinema on Rtally and embark on a captivating journey of crime and investigation.",
+        desc: "Unleash your inner detective with Radult! Download gripping crime movies and immerse yourself in the world of mystery and suspense. Explore our Crime Movies category for a thrilling cinematic experience. Dive into the dark side of cinema on Radult and embark on a captivating journey of crime and investigation.",
       },
       {
         name: "Documentary",
@@ -200,12 +200,12 @@ export const navLinks = [
       {
         name: "History",
         link: "/",
-        desc: "Embark on a journey through time with Rtally's History Movies! Download captivating films that bring history to life. Explore our History Movies category and delve into captivating narratives that unfold the past. Experience the power of storytelling and discover the richness of history on Rtally.",
+        desc: "Embark on a journey through time with Radult's History Movies! Download captivating films that bring history to life. Explore our History Movies category and delve into captivating narratives that unfold the past. Experience the power of storytelling and discover the richness of history on Radult.",
       },
       {
         name: "Horror",
         link: "/",
-        desc: "Experience spine-chilling thrills on Rtally! Download terrifying horror movies and immerse yourself in gripping tales of fear. Explore our Horror Movies category for an adrenaline-pumping cinematic journey. Brace yourself for the ultimate scare-fest on Rtally.",
+        desc: "Experience spine-chilling thrills on Radult! Download terrifying horror movies and immerse yourself in gripping tales of fear. Explore our Horror Movies category for an adrenaline-pumping cinematic journey. Brace yourself for the ultimate scare-fest on Radult.",
       },
       {
         name: "Music",
@@ -220,7 +220,7 @@ export const navLinks = [
       {
         name: "Romance",
         link: "/",
-        desc: "Indulge in the magic of romance on Rtally! Download captivating romance movies and immerse yourself in heartfelt stories. Explore our Romance Movies category for an enchanting cinematic experience. Fall in love with the power of storytelling on Rtally.",
+        desc: "Indulge in the magic of romance on Radult! Download captivating romance movies and immerse yourself in heartfelt stories. Explore our Romance Movies category for an enchanting cinematic experience. Fall in love with the power of storytelling on Radult.",
       },
       {
         name: "Sci-Fi",
@@ -240,7 +240,7 @@ export const navLinks = [
       {
         name: "Thriller",
         link: "/",
-        desc: "Experience heart-pounding suspense on Rtally! Download thrilling movies and immerse yourself in gripping narratives. Explore our Thriller Movies category for an adrenaline-fueled cinematic journey. Get ready for non-stop excitement on Rtally.",
+        desc: "Experience heart-pounding suspense on Radult! Download thrilling movies and immerse yourself in gripping narratives. Explore our Thriller Movies category for an adrenaline-fueled cinematic journey. Get ready for non-stop excitement on Radult.",
       },
       {
         name: "War",
@@ -382,9 +382,9 @@ export const movieData = [
     released: "2022",
     categories: "Category[]",
     bannerImg:
-      "https://rtally.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Funyc2zvx%2Fproduction%2F8fa3d27ffcb04818e5b2e147537ff92be7f4192d-186x271.jpg&w=1080&q=75",
+      "https://radult.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Funyc2zvx%2Fproduction%2F8fa3d27ffcb04818e5b2e147537ff92be7f4192d-186x271.jpg&w=1080&q=75",
     mainImage:
-      "https://rtally.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Funyc2zvx%2Fproduction%2F8fa3d27ffcb04818e5b2e147537ff92be7f4192d-186x271.jpg&w=1080&q=75",
+      "https://radult.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Funyc2zvx%2Fproduction%2F8fa3d27ffcb04818e5b2e147537ff92be7f4192d-186x271.jpg&w=1080&q=75",
     title: "Vasantha Mullai (2023)",
     slug: "Slug",
     description:
@@ -411,9 +411,9 @@ export const movieData = [
     released: "2022",
     categories: "Category[]",
     bannerImg:
-      "https://rtally.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Funyc2zvx%2Fproduction%2F8fa3d27ffcb04818e5b2e147537ff92be7f4192d-186x271.jpg&w=1080&q=75",
+      "https://radult.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Funyc2zvx%2Fproduction%2F8fa3d27ffcb04818e5b2e147537ff92be7f4192d-186x271.jpg&w=1080&q=75",
     mainImage:
-      "https://rtally.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Funyc2zvx%2Fproduction%2F8fa3d27ffcb04818e5b2e147537ff92be7f4192d-186x271.jpg&w=1080&q=75",
+      "https://radult.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Funyc2zvx%2Fproduction%2F8fa3d27ffcb04818e5b2e147537ff92be7f4192d-186x271.jpg&w=1080&q=75",
     title: "Vasantha Mullai (2023)",
     slug: "Slug",
     description:
@@ -440,9 +440,9 @@ export const movieData = [
     released: "2022",
     categories: "Category[]",
     bannerImg:
-      "https://rtally.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Funyc2zvx%2Fproduction%2F8fa3d27ffcb04818e5b2e147537ff92be7f4192d-186x271.jpg&w=1080&q=75",
+      "https://radult.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Funyc2zvx%2Fproduction%2F8fa3d27ffcb04818e5b2e147537ff92be7f4192d-186x271.jpg&w=1080&q=75",
     mainImage:
-      "https://rtally.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Funyc2zvx%2Fproduction%2F8fa3d27ffcb04818e5b2e147537ff92be7f4192d-186x271.jpg&w=1080&q=75",
+      "https://radult.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Funyc2zvx%2Fproduction%2F8fa3d27ffcb04818e5b2e147537ff92be7f4192d-186x271.jpg&w=1080&q=75",
     title: "Vasantha Mullai (2023)",
     slug: "Slug",
     description:
@@ -469,9 +469,9 @@ export const movieData = [
     released: "2022",
     categories: "Category[]",
     bannerImg:
-      "https://rtally.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Funyc2zvx%2Fproduction%2F8fa3d27ffcb04818e5b2e147537ff92be7f4192d-186x271.jpg&w=1080&q=75",
+      "https://radult.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Funyc2zvx%2Fproduction%2F8fa3d27ffcb04818e5b2e147537ff92be7f4192d-186x271.jpg&w=1080&q=75",
     mainImage:
-      "https://rtally.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Funyc2zvx%2Fproduction%2F8fa3d27ffcb04818e5b2e147537ff92be7f4192d-186x271.jpg&w=1080&q=75",
+      "https://radult.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Funyc2zvx%2Fproduction%2F8fa3d27ffcb04818e5b2e147537ff92be7f4192d-186x271.jpg&w=1080&q=75",
     title: "Vasantha Mullai (2023)",
     slug: "Slug",
     description:
@@ -498,9 +498,9 @@ export const movieData = [
     released: "2022",
     categories: "Category[]",
     bannerImg:
-      "https://rtally.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Funyc2zvx%2Fproduction%2F8fa3d27ffcb04818e5b2e147537ff92be7f4192d-186x271.jpg&w=1080&q=75",
+      "https://radult.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Funyc2zvx%2Fproduction%2F8fa3d27ffcb04818e5b2e147537ff92be7f4192d-186x271.jpg&w=1080&q=75",
     mainImage:
-      "https://rtally.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Funyc2zvx%2Fproduction%2F8fa3d27ffcb04818e5b2e147537ff92be7f4192d-186x271.jpg&w=1080&q=75",
+      "https://radult.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Funyc2zvx%2Fproduction%2F8fa3d27ffcb04818e5b2e147537ff92be7f4192d-186x271.jpg&w=1080&q=75",
     title: "Vasantha Mullai (2023)",
     slug: "Slug",
     description:
@@ -527,9 +527,9 @@ export const movieData = [
     released: "2022",
     categories: "Category[]",
     bannerImg:
-      "https://rtally.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Funyc2zvx%2Fproduction%2F8fa3d27ffcb04818e5b2e147537ff92be7f4192d-186x271.jpg&w=1080&q=75",
+      "https://radult.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Funyc2zvx%2Fproduction%2F8fa3d27ffcb04818e5b2e147537ff92be7f4192d-186x271.jpg&w=1080&q=75",
     mainImage:
-      "https://rtally.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Funyc2zvx%2Fproduction%2F8fa3d27ffcb04818e5b2e147537ff92be7f4192d-186x271.jpg&w=1080&q=75",
+      "https://radult.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Funyc2zvx%2Fproduction%2F8fa3d27ffcb04818e5b2e147537ff92be7f4192d-186x271.jpg&w=1080&q=75",
     title: "Vasantha Mullai (2023)",
     slug: "Slug",
     description:

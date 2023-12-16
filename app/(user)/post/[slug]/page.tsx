@@ -37,14 +37,14 @@ export const generateMetadata = async ({ params: { slug } }: Props) => {
     return {
       title: singleMovieData?.title,
       description: `${singleMovieData?.title} : ${singleMovieData?.description}`,
-      keywords: `rtally, btally, rtally.vercel.app, btally.vercel.app, rtally offcial, free movies online, movies, film, hollywood movie in hindi, dual audio, upcoming movies, free download, latest movies, new movies, 360p | 480p | 720P | 1080P – ${singleMovieData?.title} - Download & Watch Online`,
+      keywords: `radult,  radult.vercel.app, badult.vercel.app, radult offcial, free movies online, movies, film, hollywood movie in hindi, dual audio, upcoming movies, free download, latest movies, new movies, 360p | 480p | 720P | 1080P – ${singleMovieData?.title} - Download & Watch Online`,
       alternates: {
         canonical: `/post/${singleMovieData?.slug.current}`,
       },
       twitter: {
         title: singleMovieData?.title,
         description: `${singleMovieData?.title} : ${singleMovieData?.description}`,
-        creator: "@Rtally_Official",
+        creator: "@Radult_Official",
       },
       openGraph: {
         url: `/post/${singleMovieData?.slug.current}`,
@@ -52,7 +52,7 @@ export const generateMetadata = async ({ params: { slug } }: Props) => {
         description: `${singleMovieData?.title} : ${singleMovieData?.description}`,
         type: "article",
         locale: "en-US",
-        siteName: "RTALLY",
+        siteName: "Radult",
       },
     };
   } catch (error) {
@@ -67,11 +67,13 @@ export const generateMetadata = async ({ params: { slug } }: Props) => {
 // Genarate Static Page
 export const generateStaticParams = async () => {
   const movieQuery = groq`
-  *[_type == "movie"]{
+  *[_type == "movie" && $keyword in categories[]->title] |  order(_createdAt  desc) | order(released  desc){
     slug
   }`;
 
-  const movieData = await client.fetch(movieQuery);
+  const movieData = await client.fetch(movieQuery, {
+    keyword: "Adult 18+",
+  });
   const slug = movieData.map((item: any) => item?.slug.current);
 
   return slug.map((item: any) => ({
@@ -80,7 +82,6 @@ export const generateStaticParams = async () => {
 };
 
 const MoviePage = async ({ params: { slug } }: Props) => {
-  const currentSlug = slug.slice(0, 9);
   const similarData = await client.fetch(categoriesQuery, {
     keyword: "Adult 18+",
     end: 14,
@@ -193,7 +194,7 @@ const MoviePage = async ({ params: { slug } }: Props) => {
                 src={urlFor(singleMovieData?.screenImage).url()}
                 className="object-contain"
                 fill
-                alt={`${singleMovieData?.title} | RTALLY`}
+                alt={`${singleMovieData?.title} | Radult`}
               />
             </div>
           </div>

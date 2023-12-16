@@ -11,7 +11,7 @@ const Form = ({ id }: any) => {
 
     await client.create({
       _type: "comment",
-      name: "RTALLY SOLDIERS",
+      name: "Radult SOLDIERS",
       comment,
       movie: {
         _type: "reference",

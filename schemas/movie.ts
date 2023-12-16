@@ -19,16 +19,11 @@ export default defineType({
         maxLength: 96,
       },
     }),
-    // defineField({
-    //   name: "description",
-    //   title: "Description",
-    //   type: "string",
-    // }),
-    // defineField({
-    //   name: "released",
-    //   title: "Released",
-    //   type: "string",
-    // }),
+    defineField({
+      name: "released",
+      title: "Released",
+      type: "string",
+    }),
     // defineField({
     //   name: "director",
     //   title: "Director",
@@ -39,23 +34,23 @@ export default defineType({
     //   title: "Casts",
     //   type: "string",
     // }),
-    // defineField({
-    //   name: "rating",
-    //   title: "Rating",
-    //   type: "string",
-    // }),
-    // defineField({
-    //   name: "quality",
-    //   title: "Quality",
-    //   type: "array",
-    //   of: [{ type: "reference", to: { type: "quality" } }],
-    // }),
-    // defineField({
-    //   name: "type",
-    //   title: "Type",
-    //   type: "array",
-    //   of: [{ type: "reference", to: { type: "types" } }],
-    // }),
+    defineField({
+      name: "rating",
+      title: "Rating",
+      type: "string",
+    }),
+    defineField({
+      name: "quality",
+      title: "Quality",
+      type: "array",
+      of: [{ type: "reference", to: { type: "quality" } }],
+    }),
+    defineField({
+      name: "type",
+      title: "Type",
+      type: "array",
+      of: [{ type: "reference", to: { type: "types" } }],
+    }),
     defineField({
       name: "language",
       title: "Language",
@@ -140,18 +135,18 @@ export default defineType({
       type: "array",
       of: [{ type: "reference", to: { type: "category" } }],
     }),
-    // defineField({
-    //   name: "genres",
-    //   title: "Genres",
-    //   type: "array",
-    //   of: [{ type: "reference", to: { type: "genres" } }],
-    // }),
-    // defineField({
-    //   name: "year",
-    //   title: "Year",
-    //   type: "array",
-    //   of: [{ type: "reference", to: { type: "year" } }],
-    // }),
+    defineField({
+      name: "genres",
+      title: "Genres",
+      type: "array",
+      of: [{ type: "reference", to: { type: "genres" } }],
+    }),
+    defineField({
+      name: "year",
+      title: "Year",
+      type: "array",
+      of: [{ type: "reference", to: { type: "year" } }],
+    }),
     defineField({
       name: "publishedAt",
       title: "Published at",

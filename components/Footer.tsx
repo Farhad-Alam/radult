@@ -11,9 +11,9 @@ const Footer = () => {
             <Link href="/">RADULT</Link>
           </div>
           <p className="text-gray-500 text-sm tracking-wide leading-[1.8rem]">
-            Discover the world of entertainment with Rtally – download movies,
+            Discover the world of entertainment with Radult – download movies,
             web series, and dramas from all over the world. Watch online or
-            download and enjoy anytime. Visit Rtally now!
+            download and enjoy anytime. Visit Radult now!
           </p>
           <p className="text-xs text-gray-400 leading-[1.4rem]">
             <span className="font-semibold tracking-wider text-white">
@@ -43,19 +43,19 @@ const Footer = () => {
             rel="noreferrer"
             target="_blank"
             className="anim hover:text-red-500 text-gray-400"
-            href={"mailto:rtallyofficial@gmail.com"}
+            href={"mailto:radultofficial@gmail.com"}
           >
             Contact Us
           </Link>
           <p className="text-sm text-gray-300 tracking-wide">
-            rtallyofficial@gmail.com
+            radultofficial@gmail.com
           </p>
         </div>
       </div>
       {/* Copyright */}
       <div className="border-b border-gray-200">
         <div className="bg-[#0c0c2b] flex items-center justify-between text-xs p-4 text-gray-400 max-w-[90rem] mx-auto tracking-wider">
-          <p>Copyright © 2023 Rtally. All Rights Reserved.</p>
+          <p>Copyright © 2023 Radult. All Rights Reserved.</p>
           <p>Creator Code : FarhanJum</p>
         </div>
       </div>

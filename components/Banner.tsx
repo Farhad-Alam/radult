@@ -30,7 +30,7 @@ const Banner = ({ bannerData }: Props) => {
           <div className="relative w-screen h-screen overflow-hidden">
             <Image
               src={urlFor(item.bannerImg).url()}
-              alt={`${item?.title} | RTALLY`}
+              alt={`${item?.title} | Radult`}
               className="object-cover"
               fill
             />
