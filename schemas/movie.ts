@@ -24,16 +24,16 @@ export default defineType({
       title: "Released",
       type: "string",
     }),
-    // defineField({
-    //   name: "director",
-    //   title: "Director",
-    //   type: "string",
-    // }),
-    // defineField({
-    //   name: "casts",
-    //   title: "Casts",
-    //   type: "string",
-    // }),
+    defineField({
+      name: "director",
+      title: "Director",
+      type: "string",
+    }),
+    defineField({
+      name: "casts",
+      title: "Casts",
+      type: "string",
+    }),
     defineField({
       name: "rating",
       title: "Rating",
@@ -57,12 +57,12 @@ export default defineType({
       type: "array",
       of: [{ type: "reference", to: { type: "language" } }],
     }),
-    // defineField({
-    //   name: "author",
-    //   title: "Author",
-    //   type: "reference",
-    //   to: { type: "author" },
-    // }),
+    defineField({
+      name: "author",
+      title: "Author",
+      type: "reference",
+      to: { type: "author" },
+    }),
     defineField({
       name: "bannerImg",
       title: "Banner image",
@@ -79,14 +79,14 @@ export default defineType({
         hotspot: true,
       },
     }),
-    // defineField({
-    //   name: "screenImage",
-    //   title: "Screen image",
-    //   type: "image",
-    //   options: {
-    //     hotspot: true,
-    //   },
-    // }),
+    defineField({
+      name: "screenImage",
+      title: "Screen image",
+      type: "image",
+      options: {
+        hotspot: true,
+      },
+    }),
     // defineField({
     //   name: "streamSB",
     //   title: "StreamSB",

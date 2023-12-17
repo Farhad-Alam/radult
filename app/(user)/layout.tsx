@@ -95,7 +95,7 @@ export default function RootLayout({
       {/* Social Ads */}
       <Script
         type="text/javascript"
-        src="//pl20459082.highcpmrevenuegate.com/77/52/10/775210dd867338a4c53e07f5d2b82a33.js"
+        src="//pl21810075.toprevenuegate.com/da/be/87/dabe87d07065242cc46fba0c9ff21664.js"
       />
       {/* Popunder */}
       {/* <Script

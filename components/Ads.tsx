@@ -18,8 +18,8 @@ const Ads = ({ single }: any) => {
       </div> */}
       <div className="w-auto md:max-w-[750px] h-[6.5rem] mx-auto border border-white rounded-sm p-1 overflow-hidden">
         <iframe
-          data-aa="2250590"
-          src="//ad.a-ads.com/2250590?size=728x90"
+          data-aa="2286561"
+          src="//ad.a-ads.com/2286561?size=728x90"
           className="w-[728px] h-[90px] border-0 p-0 overflow-hidden bg-transparent"
         ></iframe>
       </div>
