@@ -20,10 +20,26 @@ export default defineType({
       },
     }),
     defineField({
+      name: "duration",
+      title: "Duration",
+      type: "string",
+    }),
+    defineField({
+      name: "description",
+      title: "Description",
+      type: "string",
+    }),
+    defineField({
+      name: "country",
+      title: "Country",
+      type: "string",
+    }),
+    defineField({
       name: "released",
       title: "Released",
       type: "string",
     }),
+
     defineField({
       name: "director",
       title: "Director",
@@ -117,12 +133,12 @@ export default defineType({
       title: "ZipFile",
       type: "string",
     }),
-    // defineField({
-    //   name: "dramas",
-    //   title: "Dramas",
-    //   type: "array",
-    //   of: [{ type: "reference", to: { type: "dramas" } }],
-    // }),
+    defineField({
+      name: "dramas",
+      title: "Dramas",
+      type: "array",
+      of: [{ type: "reference", to: { type: "dramas" } }],
+    }),
     defineField({
       name: "dramasLink",
       title: "DramasLink",
