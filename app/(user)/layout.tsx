@@ -23,7 +23,6 @@ export const metadata: Metadata = {
     icon: "/radult.png",
   },
   verification: {
-  
     google: "2MgUXQTxAYBnFyhzdLBNuyxH1263mJzcW8-X8AEtsFY",
   },
   twitter: {
@@ -84,15 +83,15 @@ export default function RootLayout({
         {children}
         <Footer />
       </body>
-      {/* <Script
+       {/* <Script
         async
         data-cfasync="false"
         src="//cloudypotsincluded.com/61b9a08f8f37dea611c24336bd6b49fc/invoke.js"
-      />
+      />  */}
       <Script
         async
-        src="https://www.googletagmanager.com/gtag/js?id=G-JYTSYLFS0R"
-      /> */}
+        src="https://www.googletagmanager.com/gtag/js?id=G-L8HVF5Z6CQ"
+      /> 
       {/* Social Ads */}
       <Script
         type="text/javascript"
@@ -124,12 +123,10 @@ export default function RootLayout({
       <Script
         dangerouslySetInnerHTML={{
           __html: `
-             window.dataLayer = window.dataLayer || [];
-             function gtag(){dataLayer.push(arguments);}
-             gtag('js', new Date());
-             gtag('config', 'G-JYTSYLFS0R',{
-             page_path : window.location.pathname,
-          });
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-L8HVF5Z6CQ');
          `,
         }}
       />
