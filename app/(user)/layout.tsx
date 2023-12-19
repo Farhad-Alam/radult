@@ -23,7 +23,8 @@ export const metadata: Metadata = {
     icon: "/radult.png",
   },
   verification: {
-    google: "EtFy2KV9EBWilFlGklsryA89Dmhc9SYNNgKomvDUd7c",
+  
+    google: "2MgUXQTxAYBnFyhzdLBNuyxH1263mJzcW8-X8AEtsFY",
   },
   twitter: {
     title: {
