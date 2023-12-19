@@ -11,7 +11,7 @@ import Adult from "../../components/Adult";
 
 const HomePage = async () => {
   const bannerData: any = await client.fetch(bannerQuery, {
-    keyword: "Adult 18+",
+    keyword: "Banner",
   });
 
   return (
