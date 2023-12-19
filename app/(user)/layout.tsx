@@ -22,9 +22,9 @@ export const metadata: Metadata = {
   icons: {
     icon: "/radult.png",
   },
-  verification: {
-    google: "ukHC9GAy9b931S-e_NdYZkWfC4v8wbLk2Q5uMy8IUoI",
-  },
+  // verification: {
+  //   google: "ukHC9GAy9b931S-e_NdYZkWfC4v8wbLk2Q5uMy8IUoI",
+  // },
   twitter: {
     title: {
       default: "Radult",
