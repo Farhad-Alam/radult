@@ -83,7 +83,7 @@ export default function RootLayout({
         {children}
         <Footer />
       </body>
-      <Script
+      {/* <Script
         async
         data-cfasync="false"
         src="//cloudypotsincluded.com/61b9a08f8f37dea611c24336bd6b49fc/invoke.js"
@@ -91,7 +91,7 @@ export default function RootLayout({
       <Script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-JYTSYLFS0R"
-      />
+      /> */}
       {/* Social Ads */}
       <Script
         type="text/javascript"
