@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "http://radult.vercel.app",
   },
+  other: {
+    "juicyads-site-verification": "84044317b9f591ff670634393b440fdc",
+  },
   keywords:
     "radult, radult offcial, free movies online, entertain, movies hd, watch movies online, stream online movies",
   icons: {
@@ -83,7 +86,7 @@ export default function RootLayout({
         {children}
         <Footer />
       </body>
-       {/* <Script
+      {/* <Script
         async
         data-cfasync="false"
         src="//cloudypotsincluded.com/61b9a08f8f37dea611c24336bd6b49fc/invoke.js"
@@ -91,7 +94,7 @@ export default function RootLayout({
       <Script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-L8HVF5Z6CQ"
-      /> 
+      />
       {/* Social Ads */}
       <Script
         type="text/javascript"
