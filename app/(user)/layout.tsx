@@ -86,6 +86,24 @@ export default function RootLayout({
         {children}
         <Footer />
       </body>
+      {/* <script
+        type="text/javascript"
+        data-cfasync="false"
+        async
+        src="https://poweredby.jads.co/js/jads.js"
+      ></script>
+      <ins id="1043334" data-width="728" data-height="102"></ins>
+      <Script
+        async
+        type="text/javascript"
+        data-cfasync="false"
+        dangerouslySetInnerHTML={{
+          __html: `
+          (adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1043334});
+  `,
+        }}
+      /> */}
+
       {/* <Script
         async
         data-cfasync="false"
@@ -98,13 +116,13 @@ export default function RootLayout({
       {/* Social Ads */}
       <Script
         type="text/javascript"
-        src="//pl21810075.toprevenuegate.com/da/be/87/dabe87d07065242cc46fba0c9ff21664.js"
+        src="//pl20459082.toprevenuegate.com/77/52/10/775210dd867338a4c53e07f5d2b82a33.js"
       />
       {/* Popunder */}
-      {/* <Script
+      <Script
         type="text/javascript"
-        src="//pl20519927.highcpmrevenuegate.com/cd/fb/bc/cdfbbcbd31d1fbb838c6b8af31025535.js"
-      /> */}
+        src="//pl20519927.toprevenuegate.com/cd/fb/bc/cdfbbcbd31d1fbb838c6b8af31025535.js"
+      />
       <Script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
