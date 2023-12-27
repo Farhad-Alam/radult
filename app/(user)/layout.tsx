@@ -124,7 +124,7 @@ export default function RootLayout({
         src="//pl20519927.toprevenuegate.com/cd/fb/bc/cdfbbcbd31d1fbb838c6b8af31025535.js"
       />
       <Script
-        type="application/ld+json"
+        type="application/ld+json"  
         dangerouslySetInnerHTML={{
           __html: `
           {
