@@ -108,7 +108,7 @@ export default function RootLayout({
         async
         data-cfasync="false"
         src="//cloudypotsincluded.com/61b9a08f8f37dea611c24336bd6b49fc/invoke.js"
-      />  */}
+      />  */} 
       <Script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-L8HVF5Z6CQ"
